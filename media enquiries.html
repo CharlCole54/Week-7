@@ -8,26 +8,56 @@
 <li><a href="client_portal.html">Client Portal</a></li>
 </nav>
 
-Do you have a media enquiry? Please contact us using the form below and we will get back to you as soon 
-as possible. We look forward to hearing from you!
-NAME:
-Organisation:
-Nature of enquiry:
-Email:
-Phone:
-Message:
-Do you have any accessibility needs you would like us to be aware of when handling your enquiry?
+<h2>Do you have a media enquiry?</h2>
+<p>We welcome media enquiries and are happy to provide information, interviews, and expert commentary on topics related to personal development, wellbeing, 
+and achieving balance in life. If you are a member of the media and would like to get in touch with us, please contact us using the form below and we will get 
+back to you as soon as possible. We look forward to hearing from you!</p>
+<form action="submit_media_enquiry.html" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<br><br>
+<label for="organisation">Organisation:</label>
+<input type="text" id="organisation" name="organisation">
+<br><br>
+<label for="role">Organisation:</label>
+<input type="text" id="organisation" name="organisation">
+<br><br>
+<label for="enquiry_type">Type of Enquiry:</label>
+<select id="enquiry_type" name="enquiry_type" required>
+<option value="">Select an option</option>
+<option value="information_request">Information Request</option>
+<option value="expert_commentary_request">Expert Commentary Request</option>
+<option value="interview_request">Interview Request</option>
+<option value="other">Other</option>
+</select>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone">
+<br><br>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+<br><br>
+<label for="accessibility">Do you have any accessibility needs you would like us to be aware of when handling your enquiry?</label>
+<input type="text" id="accessibility" name="accessibility">
+<br><br>
+<input type="submit" value="Submit Enquiry">
+</form>
 
-What happens next?
-When we receive your enquiry we will endeavour to respond within 5 working days. 
-If you have not heard from us within 5 working days then please contact us on one of the options below.
+<h3>What happens next?</h3>
+<p>When we receive your enquiry we will endeavour to respond within 5 working days. 
+If you have not heard from us within 5 working days then please contact us on one of the options below.</p>
 
-    info@lifebalance.co.uk
-PHONE: <a href="tel:01234567890">
-    01234 567890
-Opening hours:
-Monday to Friday: 9am - 5pm
-Address: Life Balance Coaching, 123 Baker Street, London, UK, AB12 C34
+<h3>Achieving Balance, Achieving Success</h3>
+
+Email: <a href="mailto:info@lifebalance.co.uk">info@lifebalance.co.uk</a>
+Phone: <a href="tel:01234567890">01234 567890</a>
+<h4>Opening hours:</h4>
+<p></p>Monday to Friday: 9am - 5pm</p>
+<h4>Address:</h4>
+<p>Life Balance Coaching, 123 Baker Street, London, UK, AB12 C34</p>
 
 <li><a href="accessibility.html">Accessibility information</a></li>
 <li><a href="instagram.html">Follow us on Instagram</a></li>
