@@ -51,6 +51,15 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
+h6 {
+color: #024819;
+text-align: left;
+font-size: 20px;
+text-align: center;
+margin-left: 10px;
+margin-right: 10px;
+}
+
 p {
 font-size: 16px;
 color: #000000;
@@ -74,7 +83,7 @@ padding-bottom: 3px;
 
 @media (max-width: 600px) {
 body {
-background-color: #e1dddd;
+background-color: #ffffffe6;
 font-family: 'Arial';
 padding: 10;
 line-height: 1.3;
