@@ -80,15 +80,15 @@ padding-top: 3px;
 padding-bottom: 3px;
 }
 
-
 @media (max-width: 600px) {
 body {
 background-color: #ffffffe6;
 font-family: 'Arial';
-padding: 10;
+padding: 10px;
 line-height: 1.3;
 text-align: justify;
-font-size: 24;
+font-size: 24px;
+
 }
 
 p, ul {font-size: 20;
@@ -99,6 +99,7 @@ margin-right: 5x;
 padding-top: 3px
 padding-bottom 3px
 }
+
 h3 {
 color: #030e47;
 text-align: left;
