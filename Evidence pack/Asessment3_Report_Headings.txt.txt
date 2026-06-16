@@ -1,0 +1,6 @@
+Implementation summary (what I built)
+Tools/workflow used
+Testing approach (what I checked and why)
+Improvements made (before/after evidence and justification)
+Evaluation: strengths and limitations
+Next improvements (what I would do next and why)

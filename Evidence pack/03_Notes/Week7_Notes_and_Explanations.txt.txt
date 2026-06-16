@@ -1,0 +1,31 @@
+What did I implement?
+-Easy to follow file/folder structure
+-Logical and consistent nav links on each page
+-CSS media query for smaller screens
+-Consistent typography throughout
+-Index page
+-Credibility page
+-CTA's
+
+Which requirement or user need does it address?
+-The website must make contact options easy to find and follow from any page
+-The website must provide clear information on coaches’ qualifications/experience
+-Must allow new clients to book or enquire
+-Must work effectively on mobile browsers, tablets and desktops
+-Clear navigation
+-Readable text
+-The website should allow returning clients to quickly access booking or session information
+
+What is one key implementation decision I made and why?
+-Consistent navigation on all pages following the same typography and spacing etc. This was to limit cognitive load, cognitive stress and enhance user accessibility whilst reducing confusion. I felt this was arguably the most important key implementation to make at this stage.
+
+What did I deliberately not implement yet (scope control) and why?
+-The website should provide partnership or referral information for organisations or professionals-->this will be added at a later date. I felt this was not an immediate requirement given that the website is new and the need to sign up new clients was a priority. I felt the credibility page of the website had a greater need as this would also go some way in showing potential partnerships how reliable and experienced Life Balance is. There is, however, a dedicated Media Enquiries contact form.
+I have not implemented images yet-->this will be added in CSS as the structure of the website evolves and I felt sections and key information were more important at this stage of the planning.
+I have not implemented more complex visual structures such as a review carousel for the same reasons.
+
+Fixes:
+1.CTA ‘Book a consultation’ not obvious enough and easily missed
+	I noticed that the CTA ‘Book a consultation’ could create hesitation or could be easily missed when scanning the page in both regular web browsing and on narrower screens. To combat this, I changed the CTA in CSS to a header and placed it in the centre of the page. It is now more bold and more obvious to users. It is hoped that this will also enable users to remember where this CTA is if they require it enabling more traffic to the booking page and more clients for the business. It enables more clarity and a better user experience and journey as well as being a quality decision.
+2. Improve heading structure and sectioning
+    The index page was particularly busy and created cognitive stress and increased cognitive load and was not very accessible or usable, especially for the visually impaired. It created confusion whilst not being well stylised and consistent in the CSS styling. To combat this I stylised the headers and sections to improve user experience and decrease cognitive load and stress for the user. The sections and headers are consistent and have hierarchy and improve accessibility awareness. The sections have greater line spacing and padding and this works well with smaller screen sizes and accessibility tools as well as working very well when the screen is zoomed >200%.

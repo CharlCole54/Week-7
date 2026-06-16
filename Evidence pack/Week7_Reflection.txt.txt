@@ -1,0 +1,15 @@
+Challenge: What was one implementation or testing challenge you faced this week?
+	Consistent and informative navigation that fully worked on every page and followed the same styling etc. It did not work at first due to a typing error on my part.
+
+Response: How did you address it – what did you change and how did you check it worked?
+	I checked every page to ensure the navigation worked and was readable at various screen sizes. Also got a friend to check for obvious mistakes via screenshots and video walk-through. Used CSS for styling consistency.
+
+Evidence: What evidence did you capture? Name it clearly eg before/after screenshots, testing checklist notes.
+	Checklist notes (Testing_Checklist_and_Notes.txt)
+	Screenshot of VSC file and folder structure
+	Screenshot of Page 1 (index) and Page 2 (credibility) nav
+	Screenshot of Page 1 (index) and Page 2 (credibility) working
+	Screenshot of VSC Nav 
+	
+Next time: What will you do next time to prevent the issue or spot it earlier?
+	Ensure and double check file names are correct before testing.

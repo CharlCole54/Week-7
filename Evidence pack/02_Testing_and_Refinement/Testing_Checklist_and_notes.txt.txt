@@ -1,0 +1,19 @@
+Checklist:
+-Click every link and check they work
+	-PASS. Every link on every page works
+-Navigation is consistent between pages
+	PASS. Navigation bar and footer navigation consistent on every page
+-Headings are in a sensible order
+	PASS. Headings are in a sensible order and relevant to the page
+-Easy to scan
+	PASS. Headers and navigation enable easy scanning
+-Link text is descriptive and not generic
+	PASS. All links clearly state where the link is going/purpose of the link
+-At a narrower window width, nothing overlaps badly or disappears
+	PASS. Media query in place and tested at a lower screen width. No scrolling to the right to read text. Text auto adjusts
+-Readable at 200% zoom
+	PASS. Tested and no issues. Tested up to 500% zoom
+-It is clear what the user should do next on each page
+	PASS. Headers and links easily guide the user to the next piece of information or relevant link
+-Key information is easy to find
+	PASS. Clear navigation on every page.
