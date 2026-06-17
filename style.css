@@ -218,8 +218,7 @@ padding-bottom: 3px;
     justify-content: center;
 }
 
-
-@media (mid-width: 40rem) {
+@media (min-width: 320px) {
     .left {
         width: 20.8333333%;
         left: 0;
@@ -276,12 +275,38 @@ h3 {
 color: #030e47;
 text-align: left;
 font-size: 40;
-}}
+}
+}
 
 @media (prefers-color-scheme: dark) {
-/* Styles for dark mode */
-body {
-background-color: #666565e8;
-color: #ddd;
-}
+    /* Styles for dark mode */
+    html body {
+        background-color: #000000;
+        color: #fffefe;
+    }
+
+    p, ul {
+        color: #fffefe;
+    }
+    h1 {
+        color: #dadbdf;
+    }
+    h2 {
+        color: #dadbdf;
+    }
+    h3 {
+        color: #49caa3;
+    }
+    h4 {
+        color: #dadbdf;
+    }
+    h5 {
+        color: #dadbdf;
+    }
+    h6 {
+        color: #dadbdf;
+    }
+    a {
+        color: #fffefe;
+    }
 }
