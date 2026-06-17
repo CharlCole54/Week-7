@@ -133,7 +133,7 @@ li.sidenav a {
 }
 
 h1 {
-color: #4d0c0c;
+color: #030e47;
 text-align: center;
 font-size: 50px;
 padding-top: 3px;
@@ -149,7 +149,7 @@ padding-bottom: 3px;
 }
 
 h3 {
-color: #030e47;
+color: #045336;
 text-align: center;
 font-size: 20px;
 padding-top: 3px;
@@ -186,7 +186,7 @@ margin-right: 10px;
 }
 
 p, figcaption, blockquote {
-font-size: 16px;
+font-size: 20px;
 color: #000000;
 text-align: left;
 margin-left: 10px;
@@ -195,18 +195,8 @@ padding-top: 3px;
 padding-bottom: 3px;      
 }
 
-ul {
-font-size: 16px;
-color: #000000;
-text-align: left;
-margin-left: 10px;
-margin-right: 10px;
-padding-top: 3px;
-padding-bottom: 3px;
-}
-
 li {
-font-size: 16px;
+font-size: 20px;
 color: #000000;
 text-align: left;
 margin-left: 10px;
@@ -278,8 +268,6 @@ font-size: 24px;
         text-align: center;
         margin: 0 auto;
     }
-}
-
 
 
 p, ul 
@@ -293,17 +281,15 @@ padding-bottom: 3px;
 }
 
 h1 {
-color: #fbf9f9;
 text-align: center;
 font-size: 40;
 }
 
 h3 {
-color: #030e47;
 text-align: center;
 font-size: 20;
 }
-
+}
 
 @media (prefers-color-scheme: dark) {
     /* Styles for dark mode */
