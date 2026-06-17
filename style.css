@@ -32,10 +32,10 @@ font-size: 16px;
 
 
 .headernav {
-    height: 200px;
+    height: auto;
     background-color: rgb(0, 25, 6);
     display: flex;
-    align-items: center;      /* Vertically center items */
+    align-items: center;      
     justify-content: space-between;
     gap: 20px;
     width: 100%;
@@ -90,7 +90,7 @@ li.sidenav a {
     /* height: 150px; */
     background-color: rgb(0, 25, 6);
     display: inline-block;
-    /* width: 90px; */
+    width: 0%;
     font-size: 0.9rem;
     transition: transform 0.3s;
 }
@@ -100,7 +100,7 @@ li.sidenav a {
     background-color: rgb(0, 25, 6);
     display: inline-block;
     right: 200px;
-    width: 90px;
+    width: 0%;
     font-size: 0.9rem;
     transition: transform 0.3s;
     justify-content: flex-end;
@@ -111,11 +111,11 @@ li.sidenav a {
     font-family: Arial;
     font-size: 1.25rem;
     color:#ffffff;
+    width: 100%;
     min-height: 2.75rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 1rem;
+    align-items: center;;
     justify-content: space-evenly;
 }
 
@@ -218,23 +218,6 @@ padding-bottom: 3px;
     justify-content: center;
 }
 
-@media (min-width: 320px) {
-    .left {
-        width: 20.8333333%;
-        left: 0;
-        position: relative;
-    }
-    .middle {
-        width: 20.8333333%;
-        position: relative;
-    }
-    .right {
-        width: 20.8333333%;
-        right: 0;
-        position: relative;
-    }
-    }
-
 @media (pointer: coarse) {
 /* Styles for touch devices */
 body {
@@ -249,8 +232,18 @@ font-size: 25px;
 }
 }
 
+@media (max-width: 1059px) {
+    .middlenav{
+        display: block;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .leftnav, .rightnav {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
-/* Styles for small screens */
 body {
 background-color: #e4e4e4;
 color: #545454;
@@ -282,11 +275,10 @@ font-size: 40;
     /* Styles for dark mode */
     html body {
         background-color: #000000;
-        color: #fffefe;
+        color: #b4b1b1;
     }
-
     p, ul {
-        color: #fffefe;
+        color: #b4b1b1;
     }
     h1 {
         color: #dadbdf;
@@ -307,6 +299,6 @@ font-size: 40;
         color: #dadbdf;
     }
     a {
-        color: #fffefe;
+        color: #b4b1b1;
     }
 }
