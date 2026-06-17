@@ -177,7 +177,7 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
-p {
+p, figcaption, blockquote {
 font-size: 16px;
 color: #000000;
 text-align: left;
@@ -303,7 +303,7 @@ font-size: 20;
         background-color: #000000;
         color: #b4b1b1;
     }
-    p, ul {
+    p, ul, figcaption, blockquote {
         color: #b4b1b1;
     }
     h1 {
